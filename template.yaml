@@ -9,6 +9,7 @@ Resources:
       Handler: index.handler
       Runtime: nodejs6.10
       CodeUri: src/
+      AutoPublishAlias: Dev
 
   HelloWorldFunction2:
     Type: AWS::Serverless::Function
