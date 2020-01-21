@@ -8,7 +8,7 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: src/
-      AutoPublishAlias: Dev
+      AutoPublishAlias: Prod
 
   HelloWorldFunction2:
     Type: AWS::Serverless::Function
@@ -16,3 +16,4 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: src_2/
+      AutoPublishAlias: Prod
