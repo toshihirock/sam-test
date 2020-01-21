@@ -9,6 +9,7 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: src/
       AutoPublishAlias: Prod
+      FunctionName: FromCP
 
   HelloWorldFunction2:
     Type: AWS::Serverless::Function
@@ -17,3 +18,4 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: src_2/
       AutoPublishAlias: Prod
+      FunctionName: FromCP
