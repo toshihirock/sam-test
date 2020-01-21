@@ -9,6 +9,7 @@ Resources:
       Runtime: nodejs8.10
       CodeUri: src/
       AutoPublishAlias: Dev
+      FunctionName: FromCP
 
   HelloWorldFunction2:
     Type: AWS::Serverless::Function
@@ -16,3 +17,4 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: src_2/
+      FunctionName: FromCP
