@@ -18,4 +18,4 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: src_2/
       AutoPublishAlias: Prod
-      FunctionName: FromCP
+      FunctionName: FromCP2
