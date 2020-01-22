@@ -17,4 +17,4 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: src_2/
-      FunctionName: FromCP
+      FunctionName: FromCP2
